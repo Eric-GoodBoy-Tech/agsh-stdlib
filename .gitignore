@@ -1,0 +1,17 @@
+# 本地杂项
+.DS_Store
+.agsh/
+
+# 依赖产物(标准库未来若引 node 依赖)
+node_modules/
+*.tgz
+
+# ---- 2026-09-06 泄漏应急加固 ----
+.env*
+*.log
+*.bak
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*

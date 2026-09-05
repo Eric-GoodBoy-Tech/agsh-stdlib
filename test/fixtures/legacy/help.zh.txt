@@ -1,0 +1,24 @@
+agent-shell - 终端原生 AI Agent
+
+Commands:
+  credential claim <id>           申领凭证，启动 agent（支持随时切换）
+  credential drop                 释放凭证，退出 agent
+  agent help                      显示此帮助
+  agent unload                    卸载 agent-shell，恢复原始 shell
+  agent debug tail                查看调试日志 (tail -f)
+  agent debug cat                 查看调试日志 (cat)
+
+Keybindings:
+  Ctrl+G  暂停/恢复 agent
+  Ctrl+T  重试上次 API 请求
+
+Env:
+  AGENT_API_KEY                   (必填) API 密钥
+  AGENT_BASE_URL                  API 端点
+  AGENT_MODEL                     模型名称
+  AGENT_EXEC_DELAY=2              自动执行建议命令前的延迟（秒）
+  AGENT_OUTPUT_MAX_LENGTH=10000   工具输出最大长度（字符）
+  AGENT_DEBUG=false               调试日志
+  AGENT_EXEC_TIMEOUT=0            命令执行超时（秒，0=禁用）
+  AGENT_REASONING_EFFORT=high     推理深度
+  AGENT_API_TTFT_TIMEOUT=120      首 token 超时（秒）

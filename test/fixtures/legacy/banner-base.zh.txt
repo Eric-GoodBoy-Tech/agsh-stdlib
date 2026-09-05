@@ -1,0 +1,6 @@
+  credential - 申领/释放凭证
+  Ctrl+G     - 暂停/恢复
+  Ctrl+T     - 重试 API
+  输入 agent help 查看完整命令
+  agent unload - 卸载 agent-shell
+

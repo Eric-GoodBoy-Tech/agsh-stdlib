@@ -1,0 +1,5 @@
+Usage:
+  credential claim <id>   - 申领凭证，自动加载插件并启动 agent
+  credential drop         - 释放 CREDENTIAL 环境变量，退出 agent
+  credential help         - 显示此帮助
+  credential              - 显示此帮助

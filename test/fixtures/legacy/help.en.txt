@@ -1,0 +1,24 @@
+agent-shell - terminal-native AI agent
+
+Commands:
+  credential claim <id>           Claim a credential and start the agent (switchable anytime)
+  credential drop                 Release the credential and stop the agent
+  agent help                      Show this help
+  agent unload                    Unload agent-shell, restore the original shell
+  agent debug tail                Follow the debug log (tail -f)
+  agent debug cat                 Print the debug log (cat)
+
+Keybindings:
+  Ctrl+G  Pause/resume the agent
+  Ctrl+T  Retry the last API request
+
+Env:
+  AGENT_API_KEY                   (required) API key
+  AGENT_BASE_URL                  API endpoint
+  AGENT_MODEL                     Model name
+  AGENT_EXEC_DELAY=2              Seconds before auto-executing commands
+  AGENT_OUTPUT_MAX_LENGTH=10000   Max tool output length (chars)
+  AGENT_DEBUG=false               Debug logging
+  AGENT_EXEC_TIMEOUT=0            Command execution timeout (seconds, 0=off)
+  AGENT_REASONING_EFFORT=high     Reasoning depth
+  AGENT_API_TTFT_TIMEOUT=120      Time-to-first-token timeout (seconds)

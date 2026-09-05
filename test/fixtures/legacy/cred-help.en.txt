@@ -1,0 +1,5 @@
+Usage:
+  credential claim <id>   - Claim a credential, load its plugs, start the agent
+  credential drop         - Unset the CREDENTIAL env, stop the agent
+  credential help         - Show this help
+  credential              - Show this help

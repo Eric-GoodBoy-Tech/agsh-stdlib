@@ -1,0 +1,6 @@
+  credential - Claim/release a credential
+  Ctrl+G     - Pause/resume
+  Ctrl+T     - Retry API
+  Type agent help for the full command list
+  agent unload - Unload agent-shell
+
